@@ -1,1 +1,0 @@
-# Ray-Tracer-3D

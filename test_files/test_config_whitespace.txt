@@ -1,0 +1,7 @@
+
+image_width: 1000
+
+gamma: 2.0
+   
+camera_position:    10   5   -8   
+

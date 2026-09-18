@@ -1,0 +1,2 @@
+# Test scene file with error - insufficient parameters for matte material
+matte: mat1 0.5 0.6

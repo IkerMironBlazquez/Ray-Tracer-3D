@@ -1,0 +1,2 @@
+image_xwidth: 1200
+gamma: 2.2

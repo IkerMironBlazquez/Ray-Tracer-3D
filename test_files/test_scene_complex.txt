@@ -1,0 +1,22 @@
+# Scene file example - multiple materials and objects
+# Materials
+matte: red_matte 0.8 0.2 0.2
+matte: green_matte 0.2 0.8 0.2
+matte: blue_matte 0.2 0.2 0.8
+metal: silver 0.9 0.9 0.9 0.5
+metal: gold 0.9 0.8 0.3 0.3
+refractive: glass 1.5
+refractive: diamond 2.4
+
+# Objects
+sphere: 0 0 0 1.0 red_matte
+sphere: 3 0 0 0.8 green_matte
+sphere: -3 0 0 0.8 blue_matte
+sphere: 0 3 0 0.7 silver
+sphere: 0 -3 0 0.7 gold
+sphere: 0 0 3 0.6 glass
+sphere: 0 0 -3 0.6 diamond
+
+cylinder: 5 0 0 0.3 0 2 0 silver
+cylinder: -5 0 0 0.3 0 2 0 gold
+cylinder: 0 5 0 0.3 2 0 0 glass

@@ -1,0 +1,2 @@
+# Test scene file with error - material not found
+sphere: 0 0 0 0.5 undefined_material
